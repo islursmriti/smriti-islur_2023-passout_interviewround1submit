@@ -1,0 +1,13 @@
+#include <iostream>
+//#include<bits\c++.h>
+using namespace std;
+
+int main()
+{
+    //cout<<"Hello World";
+int h, u, s;
+cin>>h>>u>>s;
+int c=((h-u)/(u-s));//c hrs to reach h-u i.e 27 feet c=27 hrs
+cout<<c+1;//c+1 hrs to reach 30 feet since u feet/hr but there won't be -s since it reached its destination
+    return 0;
+}
